@@ -31,7 +31,7 @@ export const LoginForm = () => {
 
         <div className='wrapper'>
             <form action="" onSubmit={handleValidation} >
-                <h1>Welcome to Healthy Choices </h1>
+                <h1>Healthy Choices </h1>
 
                 <div className="input-box">
                     <input type="text" placeholder="Username" onChange={handleInput} required /> 
@@ -51,11 +51,13 @@ export const LoginForm = () => {
                     <a href="#">Forgot password</a>
                 </div>
 
+                <div className='reg-button'>
                 <button type="submit" className='register'><p><a href='/home'>Login</a></p></button>
+                </div>
 
                 <div className="register-link">
                 <p>Don't have an account? 
-                    <a href="/registerForm">Register</a>
+                    <a href="/registerForm">  Register</a>
                 </p>
             </div>
 

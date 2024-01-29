@@ -1,17 +1,18 @@
 import { useState } from 'react';
-import './All.css';
-import Header from './Header';
-import NavBar from './NavBar';
-import SideBar from './SideBar';
-import Home from './Home';
+import './pages/All.css';
+import Header from './pages/Header';
+import NavBar from './pages/NavBar';
+import SideBar from './pages/SideBar';
+import Home from './pages/Home';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Categories from './Categories';
-import Products from './Products';
-import Customers from './Customers';
-import Setting from './Setting';
+import Categories from './pages/Categories';
+import Products from './pages/Products';
+import Customers from './pages/Customers';
+import Setting from './pages/Setting';
 import LoginForm from './components/loginForm/LoginForm';
 import RegisterForm from './components/loginForm/RegisterForm';
-
+import Cart from './pages/Cart';
+import { CartProvider } from 'react-use-cart';
 
 function App() {
 
@@ -40,10 +41,14 @@ function App() {
       <Router>
         <Switch>
           <Route path='/home' exact component={Home}/>
-          <Route path='/products' exact component={Products}/>
+          
           <Route path='/categories' exact component={Categories}/>
           <Route path='/customers' exact component={Customers}/>
           <Route path='/setting' exact component={Setting}/>
+          <CartProvider>
+          <Route path='/products' exact component={Products}/>
+          <Route path='/cart' exact component={Cart}/>
+          </CartProvider>
         </Switch>
       </Router>
 
