@@ -8,7 +8,7 @@
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url('./back4.jpeg') 
+    background: url('./veg7.jpeg') 
     no-repeat;
     background-size: cover;
     background-position: center;
@@ -126,3 +126,14 @@
 .register-link p a:hover {
     text-decoration: underline;
 }
+
+.register {
+    width: 60% !important;
+}
+
+.reg-button {
+    text-align: center;
+  }
+
+
+

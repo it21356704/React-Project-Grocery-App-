@@ -33,11 +33,13 @@ export const RegisterForm = () => {
                     <label><input type="checkbox" />Remember me</label>
                 </div>
 
+                <div className='reg-button'>
                 <button type="submit" className='register'><p><a href="/">Register</a></p></button>
+                </div>
 
                 <div className="register-link">
-                <p>Don't have an account? 
-                    <a href="#">Register</a>
+                <p>Already have an account? 
+                    <a href="/">  Login</a>
                 </p>
             </div>
 
