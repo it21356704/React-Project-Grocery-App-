@@ -35,7 +35,7 @@ function Header({OpenSidebar}) {
 
                         <Nav.Link href="/#" className='b1'>What's New</Nav.Link>
 
-                        <Nav.Link href="/#" className='b1'>Delivery</Nav.Link>
+                        <Nav.Link href="/cart" className='b1'>Cart</Nav.Link>
                         
                         <NavDropdown title="Link" id="navbarScrollingDropdown" className='b1'>
                             <NavDropdown.Item href="/categories" className='bb'>Product</NavDropdown.Item>
