@@ -14,6 +14,8 @@ import RegisterForm from './components/loginForm/RegisterForm';
 import Cart from './pages/Cart';
 import { CartProvider } from 'react-use-cart';
 import Table from './pages/Table';
+import FormPage from './form/FormPage';
+
 
 function App() {
 
@@ -47,6 +49,7 @@ function App() {
           <Route path='/customers' exact component={Customers}/>
           <Route path='/setting' exact component={Setting}/>
           <Route path='/table' exact component={Table}/>
+          <Route path='/formpage' exact component={FormPage}/>
           <CartProvider>
           <Route path='/products' exact component={Products}/>
           <Route path='/cart' exact component={Cart}/>
