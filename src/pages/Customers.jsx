@@ -70,21 +70,21 @@ function Customers() {
                 </div>
             </div>
 
-            <div className='ti1'>
+            <div className='ti2'>
                 
                 <h4>Do you also wish to be a Loyality customer?</h4> 
             </div>
 
-            <div>
+            <div className='container2'>
 
-                <form class="border p-3 black-border custom-width">
-                    <div class="col-md-6">
+                <form class="border p-3 black-border custom-width1">
+                    <div class="col-12">
                         <label for="inputEmail4" class="mt-2 black-text">Email</label>
-                        <input type="email" class="form-control" id="inputEmail4"/>
+                        <input type="email" class="form-control" id="inputEmail4" placeholder='Enter Email'/>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-12">
                         <label for="inputPassword4" class="mt-2 black-text">Password</label>
-                        <input type="password" class="form-control" id="inputPassword4"/>
+                        <input type="password" class="form-control" id="inputPassword4" placeholder='Enter Password'/>
                     </div>
                     <div class="col-12">
                         <label for="inputAddress" class="mt-2 black-text">Address</label>
@@ -94,7 +94,7 @@ function Customers() {
                         <label for="inputAddress2" class="mt-2 black-text">Address 2</label>
                         <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor"/>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-12">
                         <label for="inputCity" class="mt-2 black-text">City</label>
                         <input type="text" class="form-control" id="inputCity"/>
                     </div>
@@ -112,7 +112,7 @@ function Customers() {
                     <div class="col-12">
                         <div class="form-check">
                         <input class="form-check-input" type="checkbox" id="gridCheck"/>
-                        <label class="form-check-label" for="gridCheck">
+                        <label class="form-check-label  black-text" for="gridCheck">
                             Check me out
                         </label>
                         </div>

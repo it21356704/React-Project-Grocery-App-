@@ -3,6 +3,10 @@
     overflow-y: auto;
     padding: 20px 20px;
     color: rgba(255, 255, 255, 0.95);
+    background: url(../assets/customer4.jpeg)
+    no-repeat;
+    background-size: cover;
+    background-position: center;
     
 }
 .main-title3 {
@@ -18,12 +22,13 @@
 .signup_container {
     width: 80%;
     padding-top: -10px;
-    padding-left: 20%;
+    padding-left: 170px;
 
 }
 
 .border p-3{
     width: 100%;
+    padding-left: 20px;
 }
 
 .black-text{
@@ -38,3 +43,24 @@ form.black-border{
     width: 500px;
 }
 
+.ti2{
+    color: #052f04;
+    padding-top: 20px;
+}
+
+.form2 {
+    border: 1px solid black;
+    
+    padding-left: 170px;
+}
+
+.custom-width1 {
+    width: 500px;
+    padding-left: 20px !important;
+}
+
+.container2 {
+    width: 80%;
+    padding-top: -10px;
+    padding-left: 170px;
+}
