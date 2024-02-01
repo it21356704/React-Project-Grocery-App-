@@ -7,10 +7,10 @@ function Table() {
 
 
   return (
-    <main className='main-container3'>
+    <main className='main-container2'>
     <div>
         <div className='ti1'>
-            <h3>Loyality Customer Table</h3> <br/>
+            <h3>Customer Details</h3> <br/>
             
 
             <MyTableComponent/>
